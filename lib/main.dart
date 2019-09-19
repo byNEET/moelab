@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:moelab/count/count.dart';
+import 'package:moelab/coslib/ui/coslib_main.dart';
 
 void main() => runApp(MyApp());
 
@@ -9,11 +9,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      theme: ThemeData(
-        
-        primarySwatch: Colors.blue,
-      ),
-      home: MyHomePage(title: 'MoeLab'),
+      theme: ThemeData.dark(),
+      home: CosplibMain() 
+      //MyHomePage(title: 'MoeLab'),
     );
   }
 }
