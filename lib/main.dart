@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:moelab/coslib/ui/coslib_main.dart';
+import 'package:moelab/emelab/emelabmain.dart';
 
 void main() => runApp(MyApp());
 
@@ -10,7 +10,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData.dark(),
-      home: CosplibMain() 
+      home: EmelabMain()
+      //CosplibMain() 
       //MyHomePage(title: 'MoeLab'),
     );
   }
